@@ -5,12 +5,12 @@ An automated, IoT-integrated lighting system designed to optimize energy consump
 
 ## 2. Key Features
 * **Three Operation Modes**:
-    * [cite_start]**Manual**: Direct control via the Blynk mobile app or a physical override button[cite: 118, 119, 134].
-    * [cite_start]**Automatic**: Lights trigger based on the combined logic of motion (PIR sensor) and low ambient light (Photodiode)[cite: 121, 125].
-    * [cite_start]**Scheduled**: Set specific "Time ON" and "Time OFF" intervals using a Real-Time Clock (RTC)[cite: 113, 115].
-* [cite_start]**High Responsiveness**: System latency is optimized to be <1 second within local WiFi[cite: 90].
-* [cite_start]**Time Synchronization**: Uses NTP (Network Time Protocol) to keep the DS3231 RTC module accurate[cite: 190, 213].
-* [cite_start]**Safety & Reliability**: Includes a physical button to ensure functionality even if the internet connection is lost[cite: 81, 93].
+    * **Manual**: Direct control via the Blynk mobile app or a physical override button[cite: 118, 119, 134].
+    * **Automatic**: Lights trigger based on the combined logic of motion (PIR sensor) and low ambient light (Photodiode)[cite: 121, 125].
+    * **Scheduled**: Set specific "Time ON" and "Time OFF" intervals using a Real-Time Clock (RTC)[cite: 113, 115].
+* **High Responsiveness**: System latency is optimized to be <1 second within local WiFi[cite: 90].
+* **Time Synchronization**: Uses NTP (Network Time Protocol) to keep the DS3231 RTC module accurate[cite: 190, 213].
+* **Safety & Reliability**: Includes a physical button to ensure functionality even if the internet connection is lost[cite: 81, 93].
 
 ## 3. System Architecture
 The system uses an ESP32 as the central hub to process sensor data and execute control logic via a relay module.
@@ -27,10 +27,10 @@ The system uses an ESP32 as the central hub to process sensor data and execute c
 | **AC-DC 5V Power Supply** | [cite_start]Stable power for the MCU and peripherals[cite: 101]. |
 
 ## 4. Software & Tools
-* [cite_start]**Programming**: Arduino IDE / PlatformIO[cite: 140].
-* [cite_start]**Libraries**: `BlynkSimpleEsp32`, `RTClib`, `WiFi`, `time.h`[cite: 150, 151, 152, 153].
-* [cite_start]**Circuit Design**: Fritzing[cite: 141].
-* [cite_start]**IoT Platform**: Blynk IoT App[cite: 143].
+* **Programming**: Arduino IDE / PlatformIO[cite: 140].
+* **Libraries**: `BlynkSimpleEsp32`, `RTClib`, `WiFi`, `time.h`[cite: 150, 151, 152, 153].
+* **Circuit Design**: Fritzing[cite: 141].
+* **IoT Platform**: Blynk IoT App[cite: 143].
 
 ## 5. Wiring Diagram
 
@@ -50,15 +50,8 @@ void loop() {
 ```
 
 ## 7. Future Enhancements
-* [cite_start]**Dimming Control**: Implement PWM to adjust brightness based on environment[cite: 345, 346].
-* [cite_start]**Multi-Zone Support**: Expand the system to manage multiple rooms independently[cite: 343, 344].
-* [cite_start]**Machine Learning**: Analyze user habits to predict and automate lighting schedules[cite: 351, 352].
-* [cite_start]**Advanced Sensors**: Integrate temperature, humidity, and air quality monitoring[cite: 349, 350].
-
-## 8. Authors
-* [cite_start]**Ngô Quang Minh** (Lead) [cite: 13]
-* [cite_start]**Nguyễn Phạm Thế Hào** [cite: 5]
-* [cite_start]**Dương Minh Thông** [cite: 5]
-* [cite_start]**Phùng Thanh Triều** [cite: 5]
-
-[cite_start]*This project was developed as part of the Embedded Systems course at Ho Chi Minh City University of Technology and Education (HCMUTE)*[cite: 1, 2, 356].
+* **Dimming Control**: Implement PWM to adjust brightness based on environment[cite: 345, 346].
+* **Multi-Zone Support**: Expand the system to manage multiple rooms independently[cite: 343, 344].
+* **Machine Learning**: Analyze user habits to predict and automate lighting schedules[cite: 351, 352].
+* **Advanced Sensors**: Integrate temperature, humidity, and air quality monitoring[cite: 349, 350].
+*This project was developed as part of the Embedded Systems course at Ho Chi Minh City University of Technology and Education (HCMUTE)*[cite: 1, 2, 356].
