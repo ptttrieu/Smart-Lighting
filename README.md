@@ -1,7 +1,7 @@
 An automated, IoT-integrated lighting system designed to optimize energy consumption and enhance user convenience through motion detection, ambient light sensing, and remote mobile control.
 
 ## 1. Overview
-[cite_start]This project focuses on building a smart lighting solution using the **ESP32** microcontroller[cite: 95, 109]. [cite_start]It integrates local automation with cloud-based remote control via the **Blynk** platform[cite: 114, 143]. [cite_start]The system is capable of operating in three distinct modes: Manual, Automatic, and Scheduled[cite: 113, 118, 121].
+- This project focuses on building a smart lighting solution using the **ESP32** microcontroller[cite: 95, 109]. -It integrates local automation with cloud-based remote control via the **Blynk** platform[cite: 114, 143]. -The system is capable of operating in three distinct modes: Manual, Automatic, and Scheduled[cite: 113, 118, 121].
 
 ## 2. Key Features
 * **Three Operation Modes**:
@@ -19,12 +19,12 @@ The system uses an ESP32 as the central hub to process sensor data and execute c
 ### Hardware Components
 | Component | Purpose |
 | :--- | :--- |
-| **ESP32-WROOM-32** | [cite_start]Main MCU with integrated Wi-Fi/Bluetooth[cite: 105, 110]. |
-| **HC-SR501 PIR Sensor** | [cite_start]Human motion detection (5–7m range)[cite: 91, 96]. |
-| **Photodiode Sensor** | [cite_start]Ambient light intensity sensing[cite: 97, 123]. |
-| **DS3231 RTC Module** | [cite_start]Precise timekeeping for scheduling[cite: 98, 133]. |
-| **Relay Module** | [cite_start]Switches the AC 220V load for the LED light[cite: 100, 135]. |
-| **AC-DC 5V Power Supply** | [cite_start]Stable power for the MCU and peripherals[cite: 101]. |
+| **ESP32-WROOM-32** | -Main MCU with integrated Wi-Fi/Bluetooth[cite: 105, 110]. |
+| **HC-SR501 PIR Sensor** | -Human motion detection (5–7m range)[cite: 91, 96]. |
+| **Photodiode Sensor** | -Ambient light intensity sensing[cite: 97, 123]. |
+| **DS3231 RTC Module** | -Precise timekeeping for scheduling[cite: 98, 133]. |
+| **Relay Module** | -Switches the AC 220V load for the LED light[cite: 100, 135]. |
+| **AC-DC 5V Power Supply** | -Stable power for the MCU and peripherals[cite: 101]. |
 
 ## 4. Software & Tools
 * **Programming**: Arduino IDE / PlatformIO[cite: 140].
@@ -34,10 +34,10 @@ The system uses an ESP32 as the central hub to process sensor data and execute c
 
 ## 5. Wiring Diagram
 
-[cite_start]The connections involve interfacing the I2C pins for the RTC, digital input pins for the sensors and button, and a digital output pin for the relay control[cite: 129, 157, 158, 159, 160, 161].
+-The connections involve interfacing the I2C pins for the RTC, digital input pins for the sensors and button, and a digital output pin for the relay control[cite: 129, 157, 158, 159, 160, 161].
 
 ## 6. Implementation & Code
-[cite_start]The core logic resides in the `loop()` function, which concurrently manages Blynk connectivity, timer routines, physical button polling, and the automatic sensor logic[cite: 329, 330, 331, 332, 333].
+-The core logic resides in the `loop()` function, which concurrently manages Blynk connectivity, timer routines, physical button polling, and the automatic sensor logic[cite: 329, 330, 331, 332, 333].
 
 ```cpp
 void loop() {
