@@ -1,7 +1,9 @@
 An automated, IoT-integrated lighting system designed to optimize energy consumption and enhance user convenience through motion detection, ambient light sensing, and remote mobile control.
 
 ## 1. Overview
-- This project focuses on building a smart lighting solution using the **ESP32** microcontroller[cite: 95, 109]. -It integrates local automation with cloud-based remote control via the **Blynk** platform[cite: 114, 143]. -The system is capable of operating in three distinct modes: Manual, Automatic, and Scheduled[cite: 113, 118, 121].
+- This project focuses on building a smart lighting solution using the **ESP32** microcontroller[cite: 95, 109].
+- It integrates local automation with cloud-based remote control via the **Blynk** platform[cite: 114, 143].
+- The system is capable of operating in three distinct modes: Manual, Automatic, and Scheduled[cite: 113, 118, 121].
 
 ## 2. Key Features
 * **Three Operation Modes**:
